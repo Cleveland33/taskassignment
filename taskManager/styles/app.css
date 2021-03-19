@@ -1,0 +1,93 @@
+html,
+body {
+    height: 200vh;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #5e98a4;
+}
+
+.container-fluid {
+    height: 100%;
+    padding-right: 0;
+}
+.content {
+    display: flex;
+    height: 100%;
+    background-color:#45838f;
+    flex-direction: row;
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+    background-color: steelblue;
+    padding-bottom: 2rem;
+}
+h3 {
+    color: #45838f;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva;
+}
+#tmanager {
+    text-align: center;
+    padding-top: 1rem;
+    
+}
+section {
+    height: 100%;
+}
+
+#list {
+    flex: 2;
+}
+
+#list h3 {
+    color: whitesmoke;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+#capture {
+    flex: 1;
+    background-color: #fafafa;
+    padding: 20px;
+    box-shadow: -1px 0 10px rgb(112, 112, 112); 
+}
+
+.control {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 10px 5px;
+}
+
+.control label {
+    font-size: 14px;
+    color: #a0a0a0;    
+}
+
+.control input {
+    font-size: 18px;
+}
+.task {
+    margin-top: 15px;
+}
+#btnDetails {
+    color: red;
+    margin-left: auto;
+}
+#iImportant {
+    font-size: 30px;
+}
+
+#iImportant.fas {
+    color: red;
+}
+
+img {
+    max-width: 25rem;
+    
+}
